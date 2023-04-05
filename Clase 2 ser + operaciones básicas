@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<h1>Logíca de programación clase 2
+ <br>   combinando str con operaciones basicas 
+</h1>
+<script>
+    document.write("El año de nacimiento de karen es..")
+    document.write("<br>")
+    document.write(2023-30)
+    document.write("<br>")
+    document.write("la suma  de edad de hugo, paco y luis es..." + (20+23+45))
+    document.write("<br>")
+    document.write("el promeda de edad de hugo, paco y luis es... ")
+    document.write("<br>")
+    document.write((20+23+45)/3)
+    document.write("<br>")
+    document.write("Hugo nacio en el año " + (2023-20))
+    document.write("<br>")
+    document.write("paco nacio en el año " + (2023-23))
+    document.write("<br>")
+    document.write("Luis nacio en el año " + (2023-45))
+
+    
+</script>
