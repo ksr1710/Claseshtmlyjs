@@ -1,0 +1,31 @@
+
+<meta charset="UTF-8">
+<h1> Calcular los puntos de un equipo de Futbol </h1>
+
+
+
+<script>
+    function saltarLinea() {
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function calcularimc(peso,altura) {
+        
+        return (peso / (altura * altura));
+    }
+    
+    var  victorias = parseInt(prompt("Informe la cantidad de victorias"));
+    var empates = parseInt(prompt("Informe la cantidad de empates"));
+
+    puntostotal = ((victorias * 3) + empates);
+
+    imprimir("El total de punto es " + puntostotal)
+</script>
