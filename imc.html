@@ -21,12 +21,40 @@
         
         return (peso / (altura * altura));
     }
-    nombre = prompt("Informe su nombre")
-    pesoinformado = prompt(nombre + "informe su peso")
-    alturainformada = prompt(nombre + "informe su altura")
+    nombre = prompt("  Informe su nombre");
+    pesoinformado = prompt(nombre + "   informe su peso");
+    alturainformada = prompt(nombre + "   informe su altura");
 
-    imcCalculado = calcularimc(pesoinformado,alturainformada)
+    imcCalculado = calcularimc(pesoinformado,alturainformada);
 
-    imprimir(nombre + ", su IMC calculado es"  + imcCalculado);
+    imprimir(nombre + ", su IMC calculado es  "  + imcCalculado);
 
+
+    if (imcCalculado  < 18.5) {
+
+    imprimir("bajo peso ");
+    }   
+
+    if (imcCalculado  >= 18.5) {
+
+        if (imcCalculado < 24.9){
+
+    imprimir(" peso normal ");
+        
+        } 
+    }   
+    
+    if (imcCalculado  >= 25) {
+
+        if (imcCalculado < 29.9){
+
+    imprimir(" sobrepeso ");
+        
+        } 
+    }   
+    
+       
+    if (imcCalculado  >= 30) {
+    imprimir("obeso  ");
+    }   
 </script>
